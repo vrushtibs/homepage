@@ -1,0 +1,316 @@
+.background{
+    height: 550px;
+    background-image: url('images/trave.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    width: 1200px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.topbox{
+    background-color: white;
+    width: 900px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 1px rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.topbox span{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nextbox{
+    background-color: white;
+    width: 1200px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+}
+
+.ticket{
+    margin-top: 40px;
+}
+
+.ticketss{
+    color: black;
+    cursor: pointer;
+    accent-color: blue;
+}
+
+.flight{
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.place{
+    margin: 10px;
+    color: rgb(40, 40, 40);
+    width: 275px;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.place h1{
+    margin: 3%;
+}
+
+.period{
+    margin: 10px;
+    color: rgb(40, 40, 40);
+    width: 150px;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.travellers{
+    margin: 10px;
+    color: rgb(40, 40, 40);
+}
+
+.fare{
+    margin-top: 30px;
+}
+
+.choose-fare{
+    display: inline-block;
+    width: 100px;
+    accent-color: blue;
+    font-weight: bold;
+}
+
+.buttontype{
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+    border-radius: 5px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+
+
+
+.searchbutton{
+    display: inline-block;
+    cursor: pointer;
+    height: 44px;
+    width: 216px;
+    border: 0px solid white;
+    background-color: #53b2fe;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    position: absolute;
+    bottom: -20;
+    margin-left: 40%;
+}
+
+.next-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 1px 15px 1px rgb(60, 60, 60);
+    border-radius: 40px;
+    width: 60%;
+    height: 50px;
+    top: 520px;
+    position: absolute;
+}
+
+.content1{
+    display: flex;
+    margin: 10px;
+    width: 110px;
+    border-right: 1px solid rgb(214, 214, 214);
+    text-align: center;
+}
+
+.content2{
+    display: flex;
+    margin: 10px;
+    width: 250px;
+    border-right: 1px solid rgb(214, 214, 214);
+    text-align: center;
+}
+
+.content3{
+    display: flex;
+    margin: 10px;
+    width: 250px;
+    border-right: 1px solid rgb(214, 214, 214);
+    text-align: center;
+}
+
+.content4{
+    display: flex;
+    margin: 10px;
+    width: 100px;
+    border-right: 1px solid rgb(214, 214, 214);
+    text-align: center;
+}
+
+.content5{
+    display: flex;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.footer{
+    background-color: white;
+    width: 1200px;
+    height: 350px;
+    border: 1px solid white;
+    box-shadow: 0px 1px 15px 1px rgb(182, 181, 181);
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    padding: 15px;
+}
+
+.title{
+    font-size: 20px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stay1{
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    object-fit: contain;
+}
+
+.stay2{
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 300px;
+    bottom: 250px;
+
+}
+
+.stay3{
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+}
+
+.stay4{
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 900px;
+    bottom: 750px;
+}
+
+.hotelstay{
+    float: left;
+}
+
+.name{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.price{
+    font-size: 17px;
+    margin: 10px;
+}
+
+.footer1{
+    background-color: white;
+    width: 1200px;
+    height: 350px;
+    border: 1px solid white;
+    box-shadow: 0px 1px 15px 1px rgb(182, 181, 181);
+    border-radius: 10px;
+    position: absolute;
+    top: 1000px;
+    padding: 15px;
+    margin: 0%;
+}
+
+.title2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wonders1, .wonders2, .wonders3, .wonders4, .wonders5{
+    height: 250px;
+    width: 210px;
+    display:inline-block;
+    position: relative;
+    margin: 12px;
+    box-shadow: inset;
+}
+
+.bottom-left{
+    position: relative;
+    bottom: 25px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer2{
+    background-color: rgba(232, 230, 230, 0.956);
+    height: 300px;
+    width: 1500px;
+    border: 1px solid white;
+    position: absolute;
+    top: 1400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.question, .question2, .question3{
+    width: 376px;
+    margin: 10px;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.para{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+} 
